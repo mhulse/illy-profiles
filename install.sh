@@ -1,13 +1,10 @@
 #!/bin/sh
 
 # Illustrator default template folder:
-INSTALL_DIR="$(cd ~/Library/Application\ Support/Adobe/Adobe\ Illustrator\ */en_US/New\ Document\ Profiles/; pwd)/@mhulse/";
+INSTALL_DIR="$(cd ~/Library/Application\ Support/Adobe/Adobe\ Illustrator\ */en_US/New\ Document\ Profiles/; pwd)/";
 
 # Remote repo zip file containing all templates:
 SOURCE_ZIP="https://github.com/mhulse/illy-profiles/tarball/master";
-
-# Clean previous installs:
-#rm -rf "$INSTALL_DIR";
 
 # Create installation folder:
 mkdir -pv "$INSTALL_DIR";
