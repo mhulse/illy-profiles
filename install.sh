@@ -80,7 +80,7 @@ function choose() {
 clear
 
 # Switch to glob folder location:
-cd "/Applications"
+cd "~/Library/Application Support/Adobe"
 
 if check "Adobe Illustrator"*; then
 	
