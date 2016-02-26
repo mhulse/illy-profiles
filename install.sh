@@ -10,7 +10,7 @@
 function install() {
 	
 	# Illustrator default folder:
-	INSTALL_DIR="~/Library/Application Support/Adobe/$1/en_US/New Document Profiles/"
+	INSTALL_DIR=~/Library/Application\ Support/Adobe/$1/en_US/New\ Document\ Profiles/
 	
 	# Navigate to the installation directory:
 	cd "$INSTALL_DIR"
@@ -80,7 +80,7 @@ function choose() {
 clear
 
 # Switch to glob folder location:
-cd "~/Library/Application Support/Adobe"
+cd ~/Library/Application\ Support/Adobe
 
 if check "Adobe Illustrator"*; then
 	
