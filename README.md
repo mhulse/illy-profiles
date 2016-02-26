@@ -7,7 +7,7 @@
 From the command line, run:
 
 ```bash
-curl -L https://git.io/vzoZq | sh
+bash <(curl -sL https://git.io/vzoZq)
 ```
 
 This will install all profiles from this repo into your `~/Library/Application\ Support/Adobe/Adobe\ Illustrator\ XX/en_US/New\ Document\ Profiles/` directory.
